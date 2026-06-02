@@ -1,3 +1,7 @@
-import { SignUpPage } from "@/components/pages/user/sign-up-page";
+import { AuthenticationForm } from "@/components/organisms/user/authentication-form";
+
+const SignUpPage = () => (
+    <AuthenticationForm type="sign-up" />
+)
 
 export default SignUpPage;
